@@ -3,9 +3,10 @@
 :root{
     --blue-d:#23245D;
     --blue:#3C3B7D;
-    --blue-l:#16AFDF;
+    --blue-l:#16b0dfb4;
     --red:#E45638;
     --wh:#F0EBDF;
+    --font-buet: Kaushan Script;
 }
 .flex{
     display: flex;
@@ -39,15 +40,24 @@ a{
 }
 h1{
     color:var(--red);
-    font-family: Kaushan Script;
+    font-family:var(--font-buet);
     font-size: 50px;
     margin: 0px 30px;
+}
+.main-text{
+
+    background: radial-gradient(55.00% 50.00% at 50% 50%,var(--blue-l),var(--blue) 100%);
+}
+.main-text h2{
+    font-family:var(--font-buet);
+    font-size: 120px;
+    color: var(--wh);
 }
 header .img{
     width: 80px;
     height: 80px;
     border-radius: 100%;
-    background-color:var(--wh) ;
+    background-color:var(--wh);
 }
 .main{
     border-bottom: solid 3px;
