@@ -5,6 +5,7 @@
     --blue:#343374;
     --blue-l:#16b0dfb4;
     --red:#E45638;
+    --red-d:rgba(160, 39, 15);
     --wh:#F0EBDF;
     --pink:#8da1c0;
     --font-buet: Kaushan Script;
@@ -76,6 +77,9 @@ header .img{
     color: var(--wh);
     text-align: center;
 }
+.cards{
+    flex-wrap: wrap;
+}
 .card{
     background-color: var(--pink);
     width: 400px;
@@ -110,6 +114,29 @@ header .img{
     padding: 3px;
 }
 .up .img:hover{
-    background-color: var(--red);
+    background-color: var(--red-d);
     color: var(--wh);
+}
+.steps .img{
+    flex-direction: column;
+    align-items: center;
+}
+.steps h3{
+    font-size: 60px;
+    font-family: var(--font-ar);
+    color: var(--wh);
+    text-align: center;
+}
+.steps .div{
+    width: 100px;
+    height: 100px;
+    background-color: var(--wh);
+    margin: 40px ;
+    border-radius: 100%;
+}
+.steps p{
+    color: var(--wh);
+    font-size: 30px;
+    font-family: var(--font-ar);
+    
 }
