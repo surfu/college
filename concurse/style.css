@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
+/* shorst */
 :root{
     --blue-d:#23245D;
-    --blue:#3C3B7D;
+    --blue:#343374;
     --blue-l:#16b0dfb4;
     --red:#E45638;
     --wh:#F0EBDF;
-    --pink:#23245D;
+    --pink:#8da1c0;
     --font-buet: Kaushan Script;
+    --font-ar: Arial, Helvetica, sans-serif
 }
 .flex{
     display: flex;
@@ -34,25 +35,19 @@ header{
 a{
     color: var(--wh);
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-ar);
     font-weight: 500;
     font-size: 30px;
     margin: 0px 44px;
+}
+li{
+    list-style: none;
 }
 h1{
     color:var(--red);
     font-family:var(--font-buet);
     font-size: 50px;
     margin: 0px 30px;
-}
-.main-text{
-
-    background: radial-gradient(55.00% 50.00% at 50% 50%,var(--blue-l),var(--blue) 100%);
-}
-.main-text h2{
-    font-family:var(--font-buet);
-    font-size: 120px;
-    color: var(--wh);
 }
 header .img{
     width: 80px;
@@ -66,9 +61,30 @@ header .img{
 .menu{
     padding: 40px 0px;
 }
+.main-text{
+    background: radial-gradient(55.00% 50.00% at 50% 50%,var(--blue-l),var(--blue) 100%);
+}
+.main-text h2{
+    font-family:var(--font-buet);
+    font-size: 120px;
+    color: var(--wh);
+}
+
 .card{
     background-color: var(--pink);
     width: 400px;
     margin: 20px;
     padding: 20px 25px 25px 15px;
+}
+.card h3{
+    color: var(--blue-d);
+    font-family: var(--font-buet);
+    font-size: 35px;
+    margin: 0px;
+}
+.card p{
+    color: var(--blue);
+    font-family: var(--font-ar);
+    font-size: 18px;
+    margin: 0pc;
 }
