@@ -6,6 +6,7 @@
     --blue-l:#16b0dfb4;
     --red:#E45638;
     --wh:#F0EBDF;
+    --pink:#23245D;
     --font-buet: Kaushan Script;
 }
 .flex{
@@ -64,4 +65,10 @@ header .img{
 }
 .menu{
     padding: 40px 0px;
+}
+.card{
+    background-color: var(--pink);
+    width: 400px;
+    margin: 20px;
+    padding: 20px 25px 25px 15px;
 }
