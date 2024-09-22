@@ -23,7 +23,9 @@
 .jsb{
     justify-content: space-between;
 }
-
+.ali{
+    align-items: center;
+}
 body{
     background-color: var(--blue);
     margin: 0px;
@@ -117,10 +119,6 @@ header .img{
     background-color: var(--red-d);
     color: var(--wh);
 }
-.steps .img{
-    flex-direction: column;
-    align-items: center;
-}
 .steps h3{
     font-size: 60px;
     font-family: var(--font-ar);
@@ -128,15 +126,37 @@ header .img{
     text-align: center;
 }
 .steps .div{
+    position: relative;
     width: 100px;
     height: 100px;
     background-color: var(--wh);
-    margin: 40px ;
+    margin: 40px 20px 20px 38%;
     border-radius: 100%;
 }
 .steps p{
     color: var(--wh);
     font-size: 30px;
     font-family: var(--font-ar);
-    
+    font-weight: 560;
+}
+.steps .line{
+    position: absolute;
+    background-color: var(--wh);
+    width: 20px;
+    height: 500px;
+    margin: 100px 0px 0px 40%;
+}
+footer{
+    background-color: var(--blue-d);
+    height: 200px;
+}
+footer h3{
+    color: var(--wh);
+    font-family: var(--font-ar);
+    font-size: 40px;
+    font-weight: 560;
+    text-align: center;
+}
+.inst{
+    margin: 50px 0px 0px 43%;
 }
