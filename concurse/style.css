@@ -4,7 +4,7 @@
     --blue-d:#23245D;
     --blue:#343374;
     --blue-l:#16b0dfb4;
-    --red:#E45638;
+    --red:#E45638;  
     --red-d:rgba(160, 39, 15);
     --wh:#F0EBDF;
     --pink:#8da1c0;
@@ -58,6 +58,19 @@ header .img{
     border-radius: 100%;
     background-color:var(--wh);
 }
+header .accaunt{
+    margin-right: 20px;
+}
+header .accaunt img{
+    width: 55px;
+    height: auto;
+}
+header .search input{
+    background-color: transparent;
+    border: none;
+    border-bottom: var(--wh) 2px solid;
+    margin: auto 20px;
+}
 .main{
     border-bottom: solid 3px;
 }
@@ -88,7 +101,7 @@ header .img{
     margin: 20px;
     padding: 20px 15px 25px 15px;
     transition: 0.5s;
-    overflow: scroll;
+    overflow:unset;
     position: relative;
 }
 .card .act{
@@ -152,6 +165,7 @@ header .img{
 footer{
     background-color: var(--blue-d);
     height: 200px;
+    padding: 20px;
 }
 footer h3{
     color: var(--wh);
