@@ -6,7 +6,6 @@
         width: 2560px;
     }
     footer{
-        width: 2560px;
         height: 700px;
     }
 }
@@ -30,7 +29,7 @@
         width: 1440px;
     }   
     footer{
-        width: 1440px;
+        width: 150%;
         height: 300px;
     }
 }
